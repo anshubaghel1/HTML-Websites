@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+    :root{
+        --primary-color: red;
+        --light-red: red;
+        --primary-black:#111;
+        --gray: gray;
+    }
+    body{
+        background-color: #fff;
+        color: var(--primary-black);
+        overflow-x: hidden;
+    }
+    /* default style */
+        section .container{
+            width: 1140px;
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .left,
+        .right{
+            width: 50%;
+            padding: 1rem;
+        }
+    a{
+        text-decoration: none;
+        color: inherit;
+        
+    }
+    /* navbar */
+    header{
+        padding: 0.2rem;
+    }
+    .navbar{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .navbar .logo{
+        font-size: 2rem;
+        color: var(--gray);
+    }
+    .navbar .logo span{
+        color: var(--primary-color);
+        font-size: bold;
+    }
+    .navbar .link{
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+    }
+    .navbar .link a{
+        font-size: 1.2rem;
+    }
+    .navbar .link a:hover{
+        color: var(--primary-color);
+    }
+
+    /* HERO SECATION */
+
+        .hero{
+            padding: 5rem;
+        }
+        .hero .left{
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .hero h1{
+            font-size: 5rem;
+            text-transform: capitalize;
+            font-weight: 400;
+            line-height: 5.5rem;
+        }
+        .hero h1 span{
+            color: var(--primary-black);
+        }
+        .hero p{
+            font-size: 1.125rem;
+            line-height: 2;
+            margin: 2rem 0;
+        }
+        .hero a{
+            display: inline-block;
+            padding: 1rem 3.5rem;
+            background-color: var(--primary-color);
+        }
+    
+    
+    
