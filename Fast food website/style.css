@@ -212,5 +212,28 @@
       .services  .card a:hover{
         color: #b3b3b3;
       }
-    
+      /* menu secation*/
+      .menu{
+        padding: 3.5rem;
+      }
+      .menu .container{
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+      }
+      .menu h1{
+        margin-bottom: 20px;
+        font-size: 2.25rem;
+        line-height: 1.1;
+        font-weight: bold;
+      }
+      .menu p{
+        max-width: 70%;
+      }
+      .menu .list{
+        margin-top: 2rem;
+        width: 100%;
+        display: grid;
+        
+      }
       
