@@ -18,7 +18,7 @@ a{
 }
 
 .container{
-    width: 1170px;
+    width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -44,10 +44,15 @@ ul{
 
  .logo img{
     width: 60px;
+   
+   
+  
+  
  }
  .header .main_menu{
     display: flex;
     justify-content: space-between;
+     
  }
 
  .header .main_menu li a{
@@ -101,7 +106,7 @@ ul{
     color: #fff;
     border: 1px solid orange;
     text-decoration: none;
-
+   
  }
 
  .common_btn a:hover{
